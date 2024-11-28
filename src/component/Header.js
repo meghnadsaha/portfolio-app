@@ -144,33 +144,45 @@ const Header = () => {
       href: "/",
       icon: faUser,
       isActive: true,
+      isDropdown: false
+
     },
     {
       name: "Portfolio",
       href: "/portfolio",
       // href: 'https://themes.3rdwavemedia.com/devcard/bs5/portfolio.html',
       icon: faLaptopCode,
+      isDropdown: false
+
     },
     {
       name: "Services & Pricing",
       href: 'https://themes.3rdwavemedia.com/devcard/bs5/services.html',
       icon: faBriefcase,
+      isDropdown: false
+
     },
     {
       name: "Resume",
       href: "/resume",
       // href: "https://themes.3rdwavemedia.com/devcard/bs5/resume.html",
       icon: faFileLines,
+      isDropdown: false
+
     },
     {
       name: "Blog",
       href: "https://themes.3rdwavemedia.com/devcard/bs5/blog-home.html",
       icon: faBlog,
+      isDropdown: false
+
     },
     {
       name: "Contact",
       href: "https://themes.3rdwavemedia.com/devcard/bs5/contact.html",
       icon: faEnvelopeOpenText,
+      isDropdown: false
+
     },
     {
       name: "More Pages",
@@ -215,7 +227,7 @@ const Header = () => {
             >
               <FontAwesomeIcon icon={item.icon} className="me-2" />
               {item.name}
-              {item.isDropdown && <span className="caret"></span>}
+              {item.isDropdown && <span className=" dropdown-toggle ml-0"></span>}
             </a>
             {/* Render dropdown menu if it's a dropdown */}
             {item.isDropdown && (
@@ -225,13 +237,18 @@ const Header = () => {
                     <a className="dropdown-item" href={dropdownItem.href}>
                       {dropdownItem.name}
                     </a>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </li>
-        ))}
-      </ul>
+                </li>
+              ))}
+            </ul>
+          )}
+          
+          {/* Display the value of item.isDropdown */}
+          {/* <div className="dropdown-status">
+            <p>isDropdown: {String(item.isDropdown)}</p>
+          </div> */}
+        </li>
+      ))}
+    </ul>
     );
   };
 

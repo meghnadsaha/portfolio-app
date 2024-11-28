@@ -127,7 +127,7 @@ const ProjectsList = () => {
   };
 
   return (
-    <section className="projects-list px-3 py-5 p-md-5">
+    <section className="projects-list px-3 py-5 p-md-5 ">
       <div className="container">
         <div className="text-center">
           <ul id="filters" className="filters mb-5 mx-auto ps-0">
