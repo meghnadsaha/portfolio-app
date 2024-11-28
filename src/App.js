@@ -31,6 +31,8 @@ import "./css/portfolio.css";
 import Header from "./component/Header";
 import MainWrapper from "./component/MainWrapper";
 import Portfolio from './component/Portfolio';
+import Blog from './component/Blog';
+import BlogPost from './component/BlogPost';
 
 const App = () => {
   return (
@@ -46,6 +48,11 @@ const App = () => {
           <Route path="/" element={<MainWrapper />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blogpost" element={<BlogPost />} />
+
+
+          
         </Routes>
       </div>
     </Router>

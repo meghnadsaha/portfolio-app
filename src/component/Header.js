@@ -141,7 +141,7 @@ const Header = () => {
   const navItems = [
     {
       name: "About Me",
-      href: "/",
+      href: "/blogpost",
       icon: faUser,
       isActive: true,
       isDropdown: false
@@ -172,7 +172,7 @@ const Header = () => {
     },
     {
       name: "Blog",
-      href: "https://themes.3rdwavemedia.com/devcard/bs5/blog-home.html",
+      href: "/blog",
       icon: faBlog,
       isDropdown: false
 
@@ -203,7 +203,7 @@ const Header = () => {
         },
         {
           name: "Blog Post",
-          href: "https://themes.3rdwavemedia.com/devcard/bs5/blog-post.html",
+          href: "/blogpost",
         },
       ],
     },

@@ -33,3 +33,7 @@
 }
 .ml-0{
   margin-left: 2px;}
+  pre {
+    background: #23241f;
+    color: #f8f8f2;
+  }
