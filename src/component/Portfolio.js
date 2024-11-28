@@ -3,7 +3,8 @@ import ProjectsList from "./ProjectsList";
 
 const Portfolio = () => {
   return (
-    <>
+    <div className="main-wrapper">
+
       <section className="cta-section theme-bg-light py-5">
         <div className="container text-center single-col-max-width">
           <h2 className="heading">Portfolio</h2>
@@ -29,7 +30,7 @@ const Portfolio = () => {
       <ProjectsList/>
      
 
-    </>
+    </div>
   );
 };
 
