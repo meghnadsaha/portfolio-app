@@ -266,7 +266,7 @@ function MainWrapper() {
 				<div class="row">
 					<div class="col-md-4 mb-5">
 						<div class="card blog-post-card">
-							<img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-1.jpg" alt="image"/>
+							<img class="card-img-top" src="https://themes.3rdwavemedia.com/devcard/bs5/assets/images/blog/blog-post-thumb-card-1.jpg" alt="image"/>
 							<div class="card-body">
 								<h5 class="card-title"><a class="theme-link" href="blog-post.html">Top 3 JavaScript Frameworks</a></h5>
 								<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
