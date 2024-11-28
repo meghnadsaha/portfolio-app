@@ -1,4 +1,5 @@
 import React from "react";
+import TestimonialCarousel from "./carousel/TestimonialCarousel";
 
 function MainWrapper() {
   const skills = [
@@ -175,39 +176,52 @@ function MainWrapper() {
         </div>
       </section>
       {/* <!--//about-me-section--> */}
-      <section class="overview-section p-3 p-lg-5">
-        <div class="container">
-          <h2 class="section-title font-weight-bold mb-3">What I do</h2>
-          <div class="section-intro mb-5">
+      <section className="overview-section p-3 p-lg-5">
+        <div className="container">
+          <h2 className="section-title font-weight-bold mb-3">What I do</h2>
+          <div className="section-intro mb-5">
             I have more than 10 years' experience building software for clients
             all over the world. Below is a quick overview of my main technical
             skill sets and technologies I use. Want to find out more about my
             experience? Check out my{" "}
-            <a class="text-link" href="resume.html">
+            <a className="text-link" href="resume.html">
               online resume
             </a>{" "}
             and{" "}
-            <a class="text-link" href="portfolio.html">
+            <a className="text-link" href="portfolio.html">
               project portfolio
             </a>
             .
           </div>
           <SkillsList />
-          <div class="text-center py-3">
-            <a href="services.html" class="btn btn-primary">
-              <i class="fa-solid fa-arrow-right  me-2"></i>
-              {/* <i class="fa-duotone fa-solid fa-circle-arrow-right"></i> */}
+          <div className="text-center py-3">
+            <a href="services.html" className="btn btn-primary">
+            <i class="fas fa-arrow-alt-circle-right me-2"></i>
               Services & Pricing
             </a>
           </div>
         </div>
         {/* <!--//container--> */}
       </section>
-      <div class="container">
+      <div className="container">
         <hr />
       </div>
+      {/* <TestimonialCarousel/> */}
+      <section className="testimonials-section p-3 p-lg-5">
+        <div className="container">
+          <h2 className="section-title font-weight-bold mb-5">Testimonials</h2>
 
- 
+          <div className="testiomonial-carousel-container">
+            <TestimonialCarousel />
+            {/* <!--//testimonial-carousel-->	 */}
+          </div>
+          {/* <!--//testimonial-carousel-container-->	 */}
+        </div>
+        {/* <!--//container--> */}
+      </section>
+      <div class="container"><hr/></div>
+     
+     
     </div>
   );
 }
