@@ -68,6 +68,7 @@ const socialLinks = [
 
 //   npm install --save @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
 //   npm install --save @fortawesome/react-fontawesome @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons
+//   npm install --save @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons @fortawesome/fontawesome-svg-core
 
 const navItems = [
     {
