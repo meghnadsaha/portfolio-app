@@ -219,9 +219,74 @@ function MainWrapper() {
         </div>
         {/* <!--//container--> */}
       </section>
+
+
       <div class="container"><hr/></div>
      
-     
+
+      <section class="featured-section p-3 p-lg-5">
+			<div class="container">
+				<h2 class="section-title font-weight-bold mb-5">Featured Projects</h2>
+				<div class="row">		
+					<div class="col-md-6 mb-5">
+						<div class="card project-card">
+							<div class="row no-gutters">
+								<div class="col-12 col-xl-5 card-img-holder">
+									<img src="https://themes.3rdwavemedia.com/devcard/bs5/assets/images/project/project-4.jpg" class="card-img" alt="image"/>
+								</div>
+								<div class="col-12 col-xl-7">
+									<div class="card-body">
+										<h5 class="card-title"><a href="project.html" class="theme-link">Project Heading</a></h5>
+										<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+										<p class="card-text"><small class="text-muted">Client: Uber</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="project.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="project.html">
+                    <i class="fas fa-eye me-2"></i> 
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center py-3"><a href="portfolio.html" class="btn btn-primary">
+        <i class="fas fa-arrow-alt-circle-right me-2"></i> View Portfolio</a>
+        </div>
+			</div>
+		</section>
+    {/* <!--//featured-section--> */}
+    <div class="container"><hr/></div>
+    <section class="latest-blog-section p-3 p-lg-5">
+			<div class="container">
+				<h2 class="section-title font-weight-bold mb-5">Latest Blog Posts</h2>
+				<div class="row">
+					<div class="col-md-4 mb-5">
+						<div class="card blog-post-card">
+							<img class="card-img-top" src="assets/images/blog/blog-post-thumb-card-1.jpg" alt="image"/>
+							<div class="card-body">
+								<h5 class="card-title"><a class="theme-link" href="blog-post.html">Top 3 JavaScript Frameworks</a></h5>
+								<p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
+								<p class="mb-0"><a class="text-link" href="blog-post.html">Read more →</a></p>
+								
+							</div>
+							<div class="card-footer">
+								<small class="text-muted">Published 2 days ago</small>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="text-center py-3"><a href="blog-home.html" class="btn btn-primary">
+            <i class="fas fa-arrow-alt-circle-right me-2"></i> 
+        View Blog</a></div>
+			</div>
+			
+		</section>
+    {/* Featured Projects */}
     </div>
   );
 }
